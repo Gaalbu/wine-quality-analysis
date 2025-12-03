@@ -1,0 +1,7 @@
+# arquivos de log pois não serão utilizados.
+*.log
+
+# diretórios de ambiente virtual
+venv/
+.venv/
+__pycache__/
