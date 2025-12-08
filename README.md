@@ -29,11 +29,11 @@ Certifique-se de ter o **Miniconda** ou **Anaconda** instalados em seu sistema.
 
 1.  **Crie e Ative o Ambiente:** Utilize o arquivo `environment.yml` para replicar o ambiente.
     ```bash
-    # 1. Crie o ambiente (substitua 'pycaret_env' pelo nome do ambiente no seu YML)
+    # 1. Crie o ambiente 
     conda env create -f environment.yml 
     
     # 2. Ative o ambiente
-    conda activate wine_env 
+    conda activate 'pycaret_env' 
     ```
 
 ### ➡️ Execução do Projeto
