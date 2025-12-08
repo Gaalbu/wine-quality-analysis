@@ -29,7 +29,7 @@ Certifique-se de ter o **Miniconda** ou **Anaconda** instalados em seu sistema.
 
 1.  **Crie e Ative o Ambiente:** Utilize o arquivo `environment.yml` para replicar o ambiente.
     ```bash
-    # 1. Crie o ambiente (substitua 'wine_env' pelo nome do ambiente no seu YML)
+    # 1. Crie o ambiente (substitua 'pycaret_env' pelo nome do ambiente no seu YML)
     conda env create -f environment.yml 
     
     # 2. Ative o ambiente
@@ -51,13 +51,13 @@ Todo o relatório, código-fonte, resultados, gráficos de diagnóstico e análi
 
 ## 📂 Organização do Repositório
 
-| Arquivo/Pasta | Descrição | Requisito da Lauda |
+| Arquivo/Pasta | Descrição |
 | :--- | :--- | :--- |
-| `main.ipynb` | O **Relatório Final**. Contém o código completo, EDA, modelos, otimização e a narrativa de resultados. | Relatório (Notebook) |
-| `winequality-red.csv` | O conjunto de dados original do vinho tinto. | Dados |
-| `environment.yml` | Arquivo para recriar o ambiente Conda, garantindo a **reprodutibilidade total** das dependências. | requirements.txt (ou YML) |
-| `LICENSE` | Documento que especifica a licença de uso do código-fonte (MIT). | Licença |
-| `.gitignore` | Configuração para ignorar arquivos de log (`logs.log`) e pastas de ambiente virtual (venv). | Observações/Versionamento |
+| `main.ipynb` | O **Relatório Final**. Contém o código completo, EDA, modelos, otimização e a narrativa de resultados. |
+| `winequality-red.csv` | O conjunto de dados original do vinho tinto. |
+| `environment.yml` | Arquivo para recriar o ambiente Conda, garantindo a **reprodutibilidade total** das dependências. |
+| `LICENSE` | Documento que especifica a licença de uso do código-fonte (MIT). |
+| `.gitignore` | Configuração para ignorar arquivos de log (`logs.log`) e pastas de ambiente virtual (venv). |
 
 ---
 
@@ -68,4 +68,4 @@ Todo o relatório, código-fonte, resultados, gráficos de diagnóstico e análi
 **Fonte Original (Kaggle/UCI):**
 [UCI Wine Quality Dataset](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
 
-**Licença do Código:** Este código-fonte está sob a licença **MIT** (ou a licença especificada no seu arquivo `LICENSE`).
+**Licença do Código:** Este código-fonte está sob a licença **MIT**.

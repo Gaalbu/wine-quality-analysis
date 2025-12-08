@@ -3,4 +3,4 @@ seaborn
 statsmodels
 scikit-learn
 pycaret
-pandas
+matplotlib
