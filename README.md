@@ -29,10 +29,13 @@ Certifique-se de ter o **Miniconda** ou **Anaconda** instalados em seu sistema.
 
 1.  **Crie e Ative o Ambiente:** Utilize o arquivo `environment.yml` para replicar o ambiente.
     ```bash
-    # 1. Crie o ambiente 
+    # 1. Entre na pasta do projeto
+    cd .\wine-quality-analysis\
+    
+    # 2. Crie o ambiente 
     conda env create -f environment.yml 
     
-    # 2. Ative o ambiente
+    # 3. Ative o ambiente
     conda activate 'pycaret_env' 
     ```
 
@@ -52,11 +55,15 @@ Todo o relatório, código-fonte, resultados, gráficos de diagnóstico e análi
 ## 📂 Organização do Repositório
 
 | Arquivo/Pasta | Descrição |
-| :--- | :--- | :--- |
+
 | `main.ipynb` | O **Relatório Final**. Contém o código completo, EDA, modelos, otimização e a narrativa de resultados. |
+
 | `winequality-red.csv` | O conjunto de dados original do vinho tinto. |
+
 | `environment.yml` | Arquivo para recriar o ambiente Conda, garantindo a **reprodutibilidade total** das dependências. |
+
 | `LICENSE` | Documento que especifica a licença de uso do código-fonte (MIT). |
+
 | `.gitignore` | Configuração para ignorar arquivos de log (`logs.log`) e pastas de ambiente virtual (venv). |
 
 ---
